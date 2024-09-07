@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>Testing</title>
-      </head> 
-   <body>
-      <header>   
-      <h1>Hello World!</h1>
-      </header>
-       <main>
-         <div class=”row">
-            <div class=”post-text-box”>
-            yes
-         </div>        
-      </main>
-    </body>
-   <head>
-  <title></title>
+  <title>Testing</title>
   <style>
   html, body {
     height: 100%;
@@ -23,7 +8,7 @@
   }
 
   body {
-    background: black;
+    background: blue;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,12 +19,12 @@
   </style>
 </head>
 <body>
-<canvas width="400" height="400" id="game"></canvas>
+<canvas width="700" height="700" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
 
-var grid = 16;
+var grid = 32;
 var count = 0;
   
 var snake = {
